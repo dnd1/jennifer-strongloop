@@ -20,6 +20,14 @@
       "through": "Subject"
     }
   },
-  "acls": [],
+  "acls": [
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "greet"
+    }
+  ],
   "methods": {}
 }
