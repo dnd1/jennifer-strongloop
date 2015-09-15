@@ -1,5 +1,6 @@
 {
   "name": "Teacher",
+  "plural":"teachers",
   "base": "User",
   "idInjection": true,
   "options": {
